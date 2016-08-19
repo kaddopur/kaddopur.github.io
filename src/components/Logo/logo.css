@@ -1,7 +1,8 @@
-.logo {
-  font-family: 'Share Tech Mono', monospace;
+.Logo {
+  padding: 1.5rem;
   text-align: left;
   font-size: 2rem;
-  padding: 1.5rem;
+  font-family: "Share Tech Mono", monospace;
+
   user-select: none;
 }
