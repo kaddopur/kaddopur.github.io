@@ -1,0 +1,30 @@
+.SocialButtons {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding-bottom: 1rem;
+}
+
+.SocialButton {
+  display: block;
+  padding: 1rem 2rem;
+  color: black;
+  text-align: center;
+  font-size: 0;
+}
+
+.SocialButton .fa {
+  font-size: 1rem;
+}
+
+.SocialButton .indicator {
+  display: inline-block;
+  margin-top: .3rem;
+  width: 0;
+  border-bottom: solid 2px black;
+  transition: width .15s linear;
+}
+
+.SocialButton:hover .indicator {
+  width: 100%;
+}
