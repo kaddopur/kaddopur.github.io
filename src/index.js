@@ -5,12 +5,13 @@ import './index.css';
 
 // components
 import App from './App';
+import Home from './components/Home/Home';
 import Projects from './components/Projects/Projects';
 
 ReactDOM.render(
   <Router history={hashHistory}>
     <Route path="/" component={App}>
-      <IndexRoute component={Projects}/>
+      <IndexRoute component={Home}/>
       <Route path="/projects" component={Projects} />
       <Route path="/readingList" component={Projects} />
     </Route>
