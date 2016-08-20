@@ -1,0 +1,28 @@
+.NavItem {
+  display: block;
+  float: left;
+  padding: 2.4rem 5rem 3rem 0;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 0;
+}
+
+.NavItem .itemTitle {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1rem;
+  font-family: "Share Tech Mono", monospace;
+}
+
+.NavItem .indicator {
+  display: inline-block;
+  margin-top: .3rem;
+  width: 0;
+  border-top: solid 2px black;
+  transition: width .15s linear;
+}
+
+.NavItem:hover .indicator {
+  width: 100%;
+}
