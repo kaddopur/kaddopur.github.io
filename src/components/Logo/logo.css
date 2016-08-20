@@ -5,8 +5,19 @@
   padding: 2rem;
   color: black;
   text-align: left;
+  text-decoration: none;
   font-size: 2rem;
   font-family: "Share Tech Mono", monospace;
 
   user-select: none;
+}
+
+@media (max-width: 1199px) {
+  .Logo {
+    position: relative;
+    display: block;
+    padding: 1em;
+    text-align: center;
+    font-size: 1.4rem;
+  }
 }

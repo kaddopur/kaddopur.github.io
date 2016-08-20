@@ -3,8 +3,8 @@ import { Link } from 'react-router'
 import './Logo.css';
 
 const Logo = () => (
-  <Link to="/">
-    <div className="Logo">CHAOJU<br/>HUANG</div>
+  <Link to="/" className="Logo">
+    <div>CHAOJU<br/>HUANG</div>
   </Link>
 );
 

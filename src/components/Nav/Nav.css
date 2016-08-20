@@ -32,3 +32,9 @@
   width: 100%;
   border-width: 2px;
 }
+
+@media (max-width: 1199px) {
+  .Nav {
+    display: none;
+  }
+}
