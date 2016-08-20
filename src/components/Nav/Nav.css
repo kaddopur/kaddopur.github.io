@@ -8,6 +8,11 @@
   font-size: 0;
 }
 
+.NavItem.active .indicator {
+  width: 100%;
+  border-width: 1px;
+}
+
 .NavItem .itemTitle {
   text-transform: uppercase;
   font-weight: bold;
@@ -25,4 +30,5 @@
 
 .NavItem:hover .indicator {
   width: 100%;
+  border-width: 2px;
 }

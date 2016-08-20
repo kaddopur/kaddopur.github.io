@@ -1,14 +1,15 @@
 import React from 'react';
+import { Link } from 'react-router'
 import './Nav.css';
 
 const pages = [
   {
     title: 'Projects',
-    path: '#projects'
+    path: '/projects'
   },
   {
     title: 'Reading List',
-    path: '#reading_list'
+    path: '/readingList'
   }
 ];
 
@@ -19,10 +20,10 @@ const NavItem = (props) => {
   } = props.page;
 
   return (
-    <a className="NavItem" href={path}>
+    <Link to={path} className="NavItem" activeClassName="active">
       <div className="itemTitle">{title}</div>
       <span className="indicator" />
-    </a>
+    </Link>
   );
 }
 
