@@ -1,11 +1,16 @@
 .NavItem {
   display: block;
   float: left;
-  padding: 2.4rem 5rem 3rem 0;
+  padding: 2.3rem 5rem 3rem 0;
   color: black;
   text-align: center;
   text-decoration: none;
   font-size: 0;
+}
+
+.NavItem.active .indicator {
+  width: 100%;
+  border-width: 1px;
 }
 
 .NavItem .itemTitle {
@@ -25,4 +30,5 @@
 
 .NavItem:hover .indicator {
   width: 100%;
+  border-width: 2px;
 }

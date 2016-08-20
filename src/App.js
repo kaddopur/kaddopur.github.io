@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import './App.css';
 
 // components
-import Logo from './components/Logo/Logo.js';
-import Nav from './components/Nav/Nav.js';
-import SocialButtons from './components/SocialButtons/SocialButtons.js';
+import Logo from './components/Logo/Logo';
+import Nav from './components/Nav/Nav';
+import SocialButtons from './components/SocialButtons/SocialButtons';
 
 class App extends Component {
   render() {
@@ -14,6 +14,7 @@ class App extends Component {
         <SocialButtons />
         <div className="container">
           <Nav />
+          {this.props.children}
         </div>
       </div>
     );
