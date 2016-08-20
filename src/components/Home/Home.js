@@ -1,10 +1,16 @@
 import React from 'react';
 import './Home.css';
-import cover from './cover.jpg';
 
 const Home = () => (
   <div className="Home">
-    <img src={cover} alt=""/>
+    <div className="cover" />
+    <blockquote>
+      <p>
+        やってみて「ダメだ」と、わかった事と<br/>
+        はじめから「ダメだ」と、言われたことは 違います。
+      </p>
+      <footer><cite>イチロー</cite></footer>
+    </blockquote>
   </div>
 );
 
