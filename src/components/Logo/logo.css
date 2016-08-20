@@ -16,7 +16,9 @@
   .Logo {
     position: relative;
     display: block;
+    margin: 0 auto;
     padding: 1em;
+    width: 100px;
     text-align: center;
     font-size: 1.4rem;
   }

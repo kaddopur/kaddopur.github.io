@@ -9,7 +9,7 @@ const pages = [
   },
   {
     title: 'Reading List',
-    path: '/readingList'
+    path: '/reading-list'
   }
 ];
 
@@ -29,7 +29,9 @@ const NavItem = (props) => {
 
 const Nav = () => (
   <div className="Nav cf">
-    {pages.map(page => <NavItem page={page} />)}
+    {pages.map((page, index) => {
+      return <NavItem page={page} key={page.title + index} />
+    })}
   </div>
 );
 
