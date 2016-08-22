@@ -11,6 +11,8 @@
   color: black;
   text-align: center;
   font-size: 0;
+
+  user-select: none;
 }
 
 .SocialButton .fa {
