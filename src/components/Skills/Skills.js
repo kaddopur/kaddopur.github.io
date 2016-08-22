@@ -31,6 +31,18 @@ const Skills = () => (
       <li>Cli</li>
       <li>Server side</li>
       <li>iOS</li>
+      <li>Digital Ocean, Linode</li>
+      <li>AWS</li>
+      <li>Firebase, Parse (self-hosted)</li>
+    </ul>
+
+    <h4>Tools</h4>
+    <ul>
+      <li>github</li>
+      <li>JIRA</li>
+      <li>Sketch</li>
+      <li>Zeplin</li>
+      <li>Affinity Photo</li>
     </ul>
 
     <h4>Natural language</h4>
