@@ -2,18 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Router, Route, IndexRoute, browserHistory } from 'react-router'
 import './index.css';
+import pages from './config/pages';
 
 // components
 import App from './App';
 import Home from './components/Home/Home';
-import Projects from './components/Projects/Projects';
 
 ReactDOM.render(
   <Router history={browserHistory}>
     <Route path="/" component={App}>
       <IndexRoute component={Home}/>
-      <Route path="/projects" component={Projects} />
-      <Route path="/reading-list" component={Projects} />
+      {pages.map((page, index) => <Route key={page.title + index} {...page} />)}
     </Route>
   </Router>,
   document.getElementById('root')

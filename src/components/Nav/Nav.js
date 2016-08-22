@@ -1,17 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router'
 import './Nav.css';
-
-const pages = [
-  {
-    title: 'Projects',
-    path: '/projects'
-  },
-  {
-    title: 'Reading List',
-    path: '/reading-list'
-  }
-];
+import pages from '../../config/pages';
 
 const NavItem = (props) => {
   const {
