@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {
-  hashHistory,
+  browserHistory,
   IndexRoute,
   Redirect,
   Route,
@@ -15,7 +15,7 @@ import App from './components/App/App';
 import Home from './components/Home/Home';
 
 ReactDOM.render(
-  <Router history={hashHistory}>
+  <Router history={browserHistory}>
     <Route path="/" component={App}>
       <IndexRoute component={Home} />
       {pages.map((page, index) => <Route key={page.title + index} {...page} />)}
