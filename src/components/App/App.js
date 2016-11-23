@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import './App.css';
 
 // components
-import Logo from './components/Logo/Logo';
-import Nav from './components/Nav/Nav';
-import SocialButtons from './components/SocialButtons/SocialButtons';
+import Logo from '../Logo/Logo';
+import Nav from '../Nav/Nav';
+import SocialButtons from '../SocialButtons/SocialButtons';
 
 class App extends Component {
   render() {

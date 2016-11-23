@@ -11,7 +11,7 @@ import './index.css';
 import pages from './config/pages';
 
 // components
-import App from './App';
+import App from './components/App/App';
 import Home from './components/Home/Home';
 
 ReactDOM.render(
