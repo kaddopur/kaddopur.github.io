@@ -1,12 +1,12 @@
 import React from 'react';
-import { Link } from 'react-router'
+import { Link } from 'react-router';
 import './Nav.css';
 import pages from '../../config/pages';
 
-const NavItem = (props) => {
+const NavItem = props => {
   const {
     path,
-    title
+    title,
   } = props.page;
 
   return (
@@ -15,12 +15,12 @@ const NavItem = (props) => {
       <span className="indicator" />
     </Link>
   );
-}
+};
 
 const Nav = () => (
   <div className="Nav cf">
     {pages.map((page, index) => {
-      return <NavItem page={page} key={page.title + index} />
+      return <NavItem page={page} key={page.title + index} />;
     })}
   </div>
 );

@@ -5,10 +5,10 @@ const sites = {
   facebook: 'https://www.facebook.com/chaoju.huang',
   twitter: 'https://twitter.com/kaddopur',
   instagram: 'https://www.instagram.com/kaddopur/',
-  linkedin: 'https://www.linkedin.com/in/chaoju'
-}
+  linkedin: 'https://www.linkedin.com/in/chaoju',
+};
 
-const SocialButton = (props) => (
+const SocialButton = props => (
   <a className="SocialButton" href={sites[props.site]} target="_blank">
     <i className={`fa fa-${props.site}`} aria-hidden="true" /><br />
     <span className="indicator" />
