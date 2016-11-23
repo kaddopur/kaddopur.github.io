@@ -1,11 +1,11 @@
 .Nav {
   position: relative;
   left: -2.5rem;
+  display: flex;
 }
 
 .NavItem {
   display: block;
-  float: left;
   padding: 2.3rem 2.5rem 3rem;
   color: black;
   text-align: center;

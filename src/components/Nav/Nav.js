@@ -18,7 +18,7 @@ const NavItem = props => {
 };
 
 const Nav = () => (
-  <div className="Nav cf">
+  <div className="Nav">
     {pages.map((page, index) => {
       return <NavItem page={page} key={page.title + index} />;
     })}
