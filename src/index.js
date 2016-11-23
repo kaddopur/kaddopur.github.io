@@ -1,6 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Router, Route, IndexRoute, browserHistory } from 'react-router';
+import {
+  browserHistory,
+  IndexRoute,
+  Redirect,
+  Route,
+  Router,
+} from 'react-router';
 import './index.css';
 import pages from './config/pages';
 
@@ -11,9 +17,10 @@ import Home from './components/Home/Home';
 ReactDOM.render(
   <Router history={browserHistory}>
     <Route path="/" component={App}>
-      <IndexRoute component={Home}/>
+      <IndexRoute component={Home} />
       {pages.map((page, index) => <Route key={page.title + index} {...page} />)}
+      <Redirect from="*" to="/" />
     </Route>
   </Router>,
-  document.getElementById('root')
+  document.querySelector('#root')
 );
