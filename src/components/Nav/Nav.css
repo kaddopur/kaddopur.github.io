@@ -15,10 +15,6 @@
   user-select: none;
 }
 
-.cNavItem:first-child {
-  padding-left: 0;
-}
-
 .NavItem.active .indicator {
   width: 100%;
   border-bottom-color: transparent;
@@ -47,6 +43,12 @@
 
 @media (max-width: 1199px) {
   .Nav {
-    display: none;
+    left: initial;
+
+    justify-content: space-between;
+  }
+
+  .NavItem {
+    padding: 1rem 0 2rem;
   }
 }
