@@ -21,7 +21,7 @@
 
 .NavItem.active .indicator {
   width: 100%;
-  border-width: 1px;
+  border-bottom-color: transparent;
 }
 
 .NavItem .itemTitle {
@@ -35,13 +35,14 @@
   display: inline-block;
   margin-top: .3rem;
   width: 0;
-  border-top: solid 2px black;
+  border-top: solid 1px black;
+  border-bottom: solid 1px black;
   transition: width .15s linear;
 }
 
 .NavItem:hover .indicator {
   width: 100%;
-  border-width: 2px;
+  border-bottom-color: black;
 }
 
 @media (max-width: 1199px) {
