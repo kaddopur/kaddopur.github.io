@@ -1,5 +1,6 @@
 .container {
   transition: padding .2s ease-in-out;
+  font-size: .8rem;
 }
 
 @media (min-width: 1600px) {
