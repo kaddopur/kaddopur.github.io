@@ -10,9 +10,14 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Deprecated
 ### Removed
 ### Fixed
-- fix NavItem indicator jitter
-
 ### Security
+
+## [0.0.3] - 2016-11-26
+### Added
+- add Yahoo and Side projects 
+
+### Fixed
+- fix NavItem indicator jitter
 
 ## [0.0.2] - 2016-11-23
 ### Added
@@ -26,5 +31,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Added
 - Basic layout
 
-[Unreleased]: https://github.com/kaddopur/chaojuhuang_personal/compare/v0.0.2...HEAD
+[Unreleased]: https://github.com/kaddopur/chaojuhuang_personal/compare/v0.0.3...HEAD
+[0.0.3]: https://github.com/kaddopur/chaojuhuang_personal/compare/v0.0.1...v0.0.3
 [0.0.2]: https://github.com/kaddopur/chaojuhuang_personal/compare/v0.0.1...v0.0.2

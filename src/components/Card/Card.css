@@ -3,13 +3,17 @@
   margin-bottom: 2rem;
   min-height: 90px;
   width: calc(33% - 1rem);
-  border: 1px solid #f0f0f0;
+  border: 1px solid #eaeaea;
   color: initial;
   text-decoration: none;
 }
 
 .card:hover {
-  box-shadow: 0 2px 3px rgba(0, 0, 0, .15);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+}
+
+.card.fallback:hover {
+  box-shadow: none;
 }
 
 .card-cover {
@@ -22,15 +26,16 @@
 
 .card-details {
   box-sizing: border-box;
-  padding: 1rem;
+  padding: .8rem;
 
   flex-grow: 1;
 }
 
 .card-title {
-  margin: 0 0 1em;
+  margin: 0 0 .4em;
   padding: 0;
-  font-size: 1.1em;
+  font-size: 1.2em;
+  font-weight: bold;
 }
 
 @media (max-width: 1600px) {
@@ -52,8 +57,8 @@
   }
 
   .card-cover {
-    width: 100%;
     padding-bottom: 56.25%;
+    width: 100%;
     background-position: top center;
   }
 }
