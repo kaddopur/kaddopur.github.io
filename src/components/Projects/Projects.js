@@ -57,6 +57,12 @@ const sideProjects = [
     cover: '/img/side_url_monster.png',
     link: 'https://github.com/Purple-Ninja/url-monster',
   },
+  {
+    title: 'Bizcard Back',
+    content: 'Angular app, Hanzawa Naoki style bizcard generator',
+    cover: '/img/side_bizcard.png',
+    link: 'https://bizcardback.herokuapp.com/',
+  },
 ];
 
 const Projects = () => (
