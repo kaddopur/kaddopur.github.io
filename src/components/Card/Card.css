@@ -1,9 +1,11 @@
 .card {
   display: flex;
   margin-bottom: 2rem;
-  width: calc(50% - 1rem);
+  min-height: 90px;
+  width: calc(33% - 1rem);
   border: 1px solid #f0f0f0;
-  cursor: pointer;
+  color: initial;
+  text-decoration: none;
 }
 
 .card:hover {
@@ -11,24 +13,30 @@
 }
 
 .card-cover {
-  width: 120px;
-  flex-shrink: 0;
-  background-size: cover;
+  width: 160px;
   background-position: center;
+  background-size: cover;
+
+  flex-shrink: 0;
 }
 
 .card-details {
-  padding: 1rem;
   box-sizing: border-box;
-  font-size: 0.5rem;
+  padding: 1rem;
 
   flex-grow: 1;
 }
 
 .card-title {
+  margin: 0 0 1em;
   padding: 0;
-  line-height: 1em;
-  margin: 0;
+  font-size: 1.1em;
+}
+
+@media (max-width: 1600px) {
+  .card {
+    width: calc(50% - 1rem);
+  }
 }
 
 @media (max-width: 900px) {
@@ -39,13 +47,13 @@
 
 @media (max-width: 560px) {
   .card {
-    width: 100%;
     flex-direction: column;
+    width: 100%;
   }
 
   .card-cover {
     width: 100%;
-    height: 320px;
+    padding-bottom: 56.25%;
     background-position: top center;
   }
 }
