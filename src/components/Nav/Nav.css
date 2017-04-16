@@ -2,6 +2,7 @@
   position: relative;
   left: -2.5rem;
   display: flex;
+  background-color: white;
 }
 
 .NavItem {
@@ -49,6 +50,31 @@
   }
 
   .NavItem {
-    padding: 1rem 0 2rem;
+    padding: 1rem 0;
+  }
+}
+
+
+@media (min-width: 1600px) {
+  .Nav {
+    padding: 0 15rem;
+  }
+}
+
+@media (max-width: 1599px) and (min-width: 1200px) {
+  .Nav {
+    padding: 0 11.25rem;
+  }
+}
+
+@media (max-width: 1199px) and (min-width: 700px) {
+  .Nav {
+    padding: 0 3.75rem;
+  }
+}
+
+@media (max-width: 699px) {
+  .Nav {
+    padding: 0 25px;
   }
 }
