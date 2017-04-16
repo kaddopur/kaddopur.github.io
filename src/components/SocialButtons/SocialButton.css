@@ -13,6 +13,7 @@
   color: black;
   text-align: center;
   font-size: 0;
+  transition: padding .2s ease-in-out;
 
   user-select: none;
 }
@@ -35,6 +36,25 @@
 
 @media (max-width: 1199px) {
   .SocialButtons {
-    display: none;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 0;
+
+    /*justify-content: space-between;*/
+  }
+
+  .SocialButton {
+    padding: 1rem 25px;
+  }
+
+  .SocialButton:first-child {
+    padding-left: 3.75rem;
+  }
+}
+
+@media (max-width: 699px) {
+  .SocialButton, .SocialButton:first-child {
+    padding: 1rem 25px;
   }
 }
