@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router';
+import { NavLink } from 'react-router-dom';
 import './Nav.css';
 import pages from '../../config/pages';
 
@@ -10,10 +10,10 @@ const NavItem = props => {
   } = props.page;
 
   return (
-    <Link to={path} className="NavItem" activeClassName="active">
+    <NavLink to={path} className="NavItem" activeClassName="active">
       <div className="itemTitle">{title}</div>
       <span className="indicator" />
-    </Link>
+    </NavLink>
   );
 };
 
