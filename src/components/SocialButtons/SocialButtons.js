@@ -9,7 +9,7 @@ const sites = {
 };
 
 const SocialButton = props => (
-  <a className="SocialButton" href={sites[props.site]} target="_blank">
+  <a className="SocialButton" href={sites[props.site]} target="_blank" rel="noopener">
     <i className={`fa fa-${props.site}`} aria-hidden="true" /><br />
     <span className="indicator" />
   </a>
