@@ -69,12 +69,12 @@ const Projects = () => (
   <div>
     <h2>Yahoo</h2>
     <div className="projects">
-      {yahooProjects.map((project, index) => <Card {...project} key={index}/>)}
+      {yahooProjects.map((project, index) => <Card {...project} key={index} />)}
     </div>
 
     <h2>Side Projects</h2>
     <div className="projects">
-      {sideProjects.map((project, index) => <Card {...project} key={index}/>)}
+      {sideProjects.map((project, index) => <Card {...project} key={index} />)}
     </div>
   </div>
 );

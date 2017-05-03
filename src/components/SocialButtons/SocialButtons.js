@@ -15,7 +15,6 @@ const SocialButton = props => (
   </a>
 );
 
-
 const SocialButtons = () => (
   <div className="SocialButtons">
     <SocialButton site="facebook" />

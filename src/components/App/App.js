@@ -21,11 +21,14 @@ class App extends Component {
           <div className="App">
             <Logo />
             <SocialButtons />
-            <Route path="/" render={() => (
-              <Sticky stickyStyle={{boxShadow: '0 2px 4px rgba(0, 0, 0, 0.15)'}} topOffset={1} >
-                <Nav />
-              </Sticky>
-            )} />
+            <Route
+              path="/"
+              render={() => (
+                <Sticky stickyStyle={{ boxShadow: '0 2px 4px rgba(0, 0, 0, 0.15)' }} topOffset={1}>
+                  <Nav />
+                </Sticky>
+              )}
+            />
             <div className="container">
               <Route exact path="/" component={Home} />
               <Route path="/projects" component={Projects} />
