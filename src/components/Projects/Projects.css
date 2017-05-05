@@ -1,7 +1,0 @@
-.projects {
-  display: flex;
-  margin-bottom: 3rem;
-
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
