@@ -6,7 +6,7 @@ const Home = () => (
     <div className="cover" />
     <blockquote>
       <p>
-        やってみて「ダメだ」と、わかった事と<br/>
+        やってみて「ダメだ」と、わかった事と<br />
         はじめから「ダメだ」と、言われたことは 違います。
       </p>
       <footer><cite>イチロー</cite></footer>

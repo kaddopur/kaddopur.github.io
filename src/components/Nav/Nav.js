@@ -4,10 +4,7 @@ import './Nav.css';
 import pages from '../../config/pages';
 
 const NavItem = props => {
-  const {
-    path,
-    title,
-  } = props.page;
+  const { path, title } = props.page;
 
   return (
     <NavLink to={path} className="NavItem" activeClassName="active">

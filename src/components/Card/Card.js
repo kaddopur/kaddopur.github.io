@@ -2,16 +2,11 @@ import React from 'react';
 import classnames from 'classnames';
 import './Card.css';
 
-const Card = (props) => {
-  const {
-    content,
-    cover,
-    link,
-    title,
-  } = props;
+const Card = props => {
+  const { content, cover, link, title } = props;
 
   const cardClass = classnames('card', {
-    'fallback': !link,
+    fallback: !link,
   });
 
   const coverStyle = {
