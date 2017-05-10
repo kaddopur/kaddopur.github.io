@@ -7,10 +7,13 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ## [Unreleased]
 ### Added
 - add Bizcard Back project
+- add blog link
 
 ### Changed
 ### Deprecated
 ### Removed
+- remove instagram link
+
 ### Fixed
 ### Security
 
