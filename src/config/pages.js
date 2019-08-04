@@ -6,18 +6,13 @@ const pages = [
   {
     title: 'Projects',
     path: '/projects',
-    component: Projects,
+    component: Projects
   },
   {
     title: 'Skills',
     path: '/skills',
-    component: Skills,
-  },
-  {
-    title: 'Reading List',
-    path: '/reading-list',
-    component: ReadingList,
-  },
+    component: Skills
+  }
 ];
 
 export default pages;
